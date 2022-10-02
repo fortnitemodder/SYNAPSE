@@ -234,7 +234,7 @@ title.BackgroundTransparency = 1.000
 title.Position = UDim2.new(0.330062926, 0, 0.00625000056, 0)
 title.Size = UDim2.new(0, 200, 0, 22)
 title.Font = Enum.Font.SourceSans
-title.Text = "Synapse X - v2.19.4"
+title.Text = "Synapse X - v2.19.4c"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.TextSize = 16.000
 
@@ -261,7 +261,7 @@ execute.MouseButton1Click:Connect(function()
         loadstring(Source.Text)()
     end
     if injected == false then
-        title.Text = "Synapse X - v2.19.4 (not injected! press attach)"
+        title.Text = "Synapse X - v2.19.4c (not injected! press attach)"
     end
 end)
 
@@ -309,25 +309,25 @@ Attach.TextSize = 14.000
 Attach.MouseButton1Click:Connect(function()
     print("hi")
     if injected == true then
-        title.Text = "Synapse X - v2.19.4 (already injected!)"
+        title.Text = "Synapse X - v2.19.4c (already injected!)"
         wait(1)
-        title.Text = "Synapse X - v2.19.4"
+        title.Text = "Synapse X - v2.19.4c"
     end
     if injected == false then
-        title.Text = "Synapse X - v2.19.4 (checking...)"
+        title.Text = "Synapse X - v2.19.4c (checking...)"
         wait(0.1)
-        title.Text = "Synapse X - v2.19.4 (injecting...)"
+        title.Text = "Synapse X - v2.19.4c (injecting...)"
         wait(1.5)
         setfpscap(1)
         wait(1)
         setfpscap(6969)
-        title.Text = "Synapse X - v2.19.4 (checking whitelist...)"
+        title.Text = "Synapse X - v2.19.4c (checking whitelist...)"
         wait(0.8)
-        title.Text = "Synapse X - v2.19.4 (scanning...)"
+        title.Text = "Synapse X - v2.19.4c (scanning...)"
         wait(0.3)
-        title.Text = "Synapse X - v2.19.4 (ready!)"
+        title.Text = "Synapse X - v2.19.4c (ready!)"
         wait(0.5)
-        title.Text = "Synapse X - v2.19.4"
+        title.Text = "Synapse X - v2.19.4c"
         injected = true
     end
 end)
